@@ -1,0 +1,24 @@
+* {
+    font-family: "Papyrus", "Comic Sans MS", Verdana, serif;
+}
+
+header {
+    background-color: gray;
+    height: 100px;
+}
+
+h1 {
+    color: pink;
+}
+
+ul {
+    background-color: coral;
+}
+
+.logo {
+    background-color: crimson;
+}
+
+.important {
+    background-color: red;
+}
