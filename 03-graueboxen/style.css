@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+#wrapper {
+    width: 800px;
+    margin: auto;
+}
+
+header,
+main,
+aside,
+footer {
+    background-color: gray;
+}
+
+header {
+    height: 90px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#logo {
+    background-color: crimson;
+    height: 30px;
+    width: 200px;
+}
+
+main,
+aside {
+    height: 400px;
+    float: left;
+
+}
+
+main {
+    width: 600px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+aside {
+    width: 190px;
+}
+
+footer {
+    clear: both;
+    height: 90px;
+}
