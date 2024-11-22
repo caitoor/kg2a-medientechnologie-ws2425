@@ -1,0 +1,19 @@
+@media screen and (max-width: 768px) {
+    #wrapper {
+        grid-template-columns: 1fr;
+
+        /* vorher:          3fr 1fr     9fr 3fr 1fr;*/
+        grid-template-rows: 3fr 1fr 2fr 9fr 3fr 1fr;
+
+    }
+
+    header,
+    nav,
+    footer {
+        grid-column: span 1;
+    }
+
+    aside {
+        grid-row: span 1;
+    }
+}
